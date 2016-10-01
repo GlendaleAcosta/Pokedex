@@ -56,6 +56,7 @@ class PokemonDetailVC: UIViewController {
         heightLbl.text = pokemon.height
         weightLbl.text = pokemon.weight
         typeLbl.text = pokemon.type
+        descriptionLbl.text = pokemon.description
     }
 
     @IBAction func backBtnPressed(_ sender: UIButton) {
